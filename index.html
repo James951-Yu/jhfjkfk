@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore & Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!--Navigation-->
+    <section class="header">
+        <img class="element" src="images/element.png" alt="">
+        <img class="element-2" src="images/element2.png" alt="">
+        <img class="element-3" src="images/element3.png" alt="">
+        <nav>
+
+            <img class="image-1" src="images/Ellipse 7.png" alt="">
+            <img class="image-2" src="images/Ellipse 11.png" alt="">
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#" class="home">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Partner</a></li>
+                    <li><button>Login</button></li>
+                    <li><button>Registration</button></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="travel">
+            <div class="travel-coll">
+                <h1>Explore and <br>Travel</h1>
+                <div class="form-coll">
+                    <h2>Holiday Finder</h2>
+
+
+                    <hr>
+
+                    <form action="Locations" method="post" class="form">
+                        <div class="form-1-row">
+                            <select name="city" class="box">
+                                <option value="Location">Location</option>
+                                <option value="Sydney">Sydney</option>
+                                <option value="Melbourne">Melbourne</option>
+                                <option value="Brisbane">Brisbane</option>
+                            </select>
+                            <select name="action" class="box">
+                                <option value="action">Activity</option>
+                                <option value="Surfing">Surfing</option>
+                                <option value="Racing">Racing</option>
+                                <option value="AnimalCare">Animal Care</option>
+                            </select>
+                        </div>
+                        <div class="form-2-row" id="form-box">
+                            <select name="Grade" class="box" placeholder="Grade">
+                                <option value="Grade">Grade</option>
+                                <option value="Economy">Economy Class</option>
+                                <option value="First">First Class</option>
+                                <option value="Business">Business Class</option>
+                            </select>
+                            <input type="date" class="box">
+                        </div>
+
+                        <button class="explore" placeholder="Explore">Explore</button>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+            <div>
+                <img class="thousand" src="images/thousand-01 1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!---Section 2---->
+    <section class="Sec-2">
+        <div class="Planet">
+            <img class="element" src="images/element3.png" alt="">
+            <img class="element-2" src="images/element2.png" alt="">
+            <div class="planet-coll">
+                <h2>A new way to explore the world</h2>
+                <p>
+                    For decades travellers have reached for Lonely Planet books <br> when looking to plan and execute
+                    their
+                    perfect
+                    trip, but now, <br> they can also let Lonely Planet Experiences lead the way
+                </p>
+                <button id="Learn">Learn more</button>
+            </div>
+
+            <img src="images/Thousand-02 1.jpg" alt="">
+
+
+    </section>
+    <!--Section 3-->
+    <section class="sec-3">
+        <img class="element-3" src="images/element3.png" alt="">
+        <img class="element-11" src="images/element.png" alt="">
+        <img class="element-1" src="images/element.png" alt="">
+        <div class="destiny">
+            <div class="photoalbom">
+                <h2>Featured Destinations</h2>
+                <a href="www.viewall.com" class="view" id="view">
+                    View all
+                </a>
+            </div>
+            <div class="container-3">
+                <div class="four-image"><img src="images/Fanjingshan.png" alt=""></div>
+                <div class="four-image"><img src="images/Raja ampat.png" alt=""></div>
+                <div class="four-image"><img src="images/Skadar.png" alt=""></div>
+                <div class="four-image"><img src="images/Vevey.png" alt=""></div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--section 4-->
+
+    <section class="sec-4">
+        <img class="element-1" src="images/element.png" alt="">
+        <img class="element-3" src="images/element3.png" alt="">
+        <img class="element-33" src="images/element3.png" alt="">
+        <div class="Sunnyguide">
+            <div class="guide">
+                <h2>Guides by Thousand Sunny</h2>
+                <p>
+                    Packed with tips and advice from our on-the-ground experts,
+                    our city guides app (iOS and Android) is the ultimate resource before and during a trip.
+                </p>
+                <button a href="Download" id="download" placeholder="Download">Download</button>
+            </div>
+
+            <img class="Image-3" src="images/Thousand-03.png" alt="">
+        </div>
+    </section>
+
+    <section class="sec-5">
+        <img class="element-1" src="images/element.png" alt="">
+        <h1>Testimonials</h1>
+        <div class="Trials">
+
+            <div class="Trial-star">
+
+                <div class="Ratings">
+                    <span class="star" data-rating="5">&#9733;</span>
+                    <span class="star" data-rating="5">&starf;</span>
+                    <span class="star" data-rating="5">&starf;</span>
+                    <span class="star" data-rating="5">&starf;</span>
+                    <span class="star" data-rating="5">&starf;</span>
+                </div>
+
+                <p id="paragraph-3">
+
+                    “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
+                    facilisis quis purus.
+                    Morbi blandit sit amet turpis nec”
+                </p>
+                <div class="name-job">
+                    <h3 class="name"> Edward Newgate</h3>
+                    <h4 class="job">Founder Circle</h4>
+                </div>
+
+            </div>
+
+            <img id="Image-4" src="images/photo.png" alt="">
+
+        </div>
+    </section>
+    <!----Section 6--->
+    <section class="pic-story">
+        <img class="element-3" src="images/element3.png" alt="">
+        <img class="element-2" src="images/element2.png" alt="">
+        <img class="element" src="images/element.png" alt="">
+        <div class="pic-story-coll">
+            <h2>Trending Stories</h2>
+            <a href="VIewall">View all</a>
+        </div>
+        <div class="picturess">
+            <div class="pic-text">
+                <div>
+                    <img id="picture" src="images/Mask Group.png" alt="">
+                </div>
+                <div id="h3para">
+                    <h3>The many benefits of
+                        taking a healing holiday</h3>
+                    <p id="review">
+                        ‘Helaing holidays’ are on the rise
+                        tohelp maximise your health and happines...
+                    </p>
+                    <a href="ReadMore" id="readmore">Read More</a>
+                </div>
+            </div>
+            <div class="pic-text">
+                <div>
+                    <img id="picture" src="images/Mask Group (1).png" alt="">
+                </div>
+                <div id="h3para">
+                    <h3>The best Kyoto restaurant
+                        to try Japanese food</h3>
+                    <p id="review">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                        to visit...</p>
+                    <a href="ReadMore" id="readmore">Read More</a>
+                </div>
+            </div>
+            <div class="pic-text">
+                <div>
+                    <img id="picture" src="images/Mask Group (2).png" alt="">
+                </div>
+                <div id="h3para">
+                    <h3>Skip Chichen Itza and head
+                        to this remote Yucatan</h3>
+                    <p id="review">It’s remote and challenging to get,
+                        but braving the jungle and exploring
+                        these ruins without the...</p>
+                    <a href="ReadMore" id="readmore">Read More</a>
+                </div>
+            </div>
+            <div class="pic-text">
+                <div>
+                    <img id="picture" src="images/Mask Group (3).png" alt="">
+                </div>
+                <div id="h3para">
+                    <h3>Surf’s up at these beginner
+                        spots around the world</h3>
+                    <p id="review">If learning to surf has in on your to-
+                        do list for a while, the good news
+                        is: it’s never too late...</p>
+                    <a href="ReadMore" id="readmore">Read More</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!---Footerr-->
+    <footer>
+        <div class="footerr">
+
+            <div class="batch-1">
+                <div class="parent1">
+                    <img id="image" src="images/Ellipse 7.png">
+                    <img class="inner-image1" src="images/Ellipse 11.png" alt="">
+                </div>
+                <div>
+                    <p class="paragraph-5">
+                        Plan and book your perfect trip with
+                        expert advice, travel tips destination
+                        information from us
+                    </p>
+                    <p class="paragraph-6">
+                        ©2020 Thousand Sunny. All rights reserved
+                    </p>
+                </div>
+            </div>
+
+            <div class="batch-2">
+                <a href="Destinations" id="Dsi">Destination</a>
+                <a href="Africa">Africa</a>
+                <a href="Antarctica">Antarctica</a>
+                <a href="Asia">Asia</a>
+                <a href="Europe">Europe</a>
+                <a href="America">America</a>
+            </div>
+            <div class="batch-2">
+                <a href="shop" id="Dsi">Shop</a>
+                <a href="Destination Guides">Destination Guides</a>
+                <a href="Pictorial & Gifts">Pictorial & Gifts</a>
+                <a href="Special Offers">Special Offers</a>
+                <a href="Delivery Times">Delivery Times</a>
+                <a href="FAQs">FAQs</a>
+            </div>
+            <div class="batch-2">
+                <a href="Interests" id="Dsi">Interests</a>
+                <a href="Adventure Travel">Adventure Travel</a>
+                <a href="Art and Culture">Art And Culture</a>
+                <a href="Wildlife And Nature">Wildlife And Nature</a>
+                <a href="Family Holidays">Family Holidays</a>
+                <a href="Food And Drink">Food And Drink</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="batch-5">
+            <span a href="www.twitter.com" class="icon1"> <i class="fa-brands fa-twitter"></i></span>
+            <span a href="www.facebook.com" class="icon2"><i class="fa-brands fa-facebook"></i></span>
+            <span a href="www.instagram.com" class="icon3"><i class="fa-brands fa-instagram"></i></span>
+            <span a href="www.linkedin.com" class="icon4"><i class="fa-brands fa-linkedin"></i></span>
+            <span a href="www.youtube.com" class="icon5"><i class="fa-brands fa-youtube"></i></span>
+        </div>
+
+    </footer>
+    <!-------JavaScript Toggle MEnu --->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+
+            navLinks.style.right = "-200px"
+        } 
+    </script>
+</body>
+</body>
+
+</html>
