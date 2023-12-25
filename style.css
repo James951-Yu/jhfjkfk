@@ -1205,7 +1205,7 @@ nav .fa-solid {
 
 }
 
-#h3para {
+.h3para {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1241,9 +1241,9 @@ nav .fa-solid {
 
 }
 
-#picture {
+.picture {
     width: 261px;
-    height: 302px;
+    height: 292px;
 
     border-radius: 8%;
 }
