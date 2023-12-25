@@ -115,7 +115,7 @@ nav {
     content: '';
     width: 0%;
     height: 2px;
-    background: rgb(31, 189, 17);
+    background: rgb(12, 11, 11, 0.199);
     display: block;
     margin: auto;
     transition: 0.7s;
@@ -127,14 +127,18 @@ nav {
 
 }
 
-.nav-links ul li .home {
+.nav-links ul li .nav-roll {
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
     font-style: normal;
-    color: rgb(20, 22, 33);
+    color: #B8BECD;
+}
 
+.nav-links ul li .nav-roll:hover {
+    color: #000;
+    transition: 1s;
 }
 
 .nav-links ul li button {
@@ -325,6 +329,12 @@ nav .fa-solid {
     color: rgba(74, 76, 83, 1);
     border: 0.8px solid rgba(175, 176, 185, 1);
     padding-left: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(images/caret-down.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) center;
 }
 
 
@@ -1190,7 +1200,7 @@ nav .fa-solid {
     gap: 20px;
 }
 
-#h3para h3 {
+.h3para h3 {
     font-family: Inter;
     font-size: 19px;
     font-weight: 700;
