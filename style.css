@@ -186,7 +186,7 @@ nav .fa-solid {
 
     .nav-links ul li a {
         display: block;
-        background-color: #a8e4ad;
+        background-color: #f8f166;
         color: #000;
 
 
@@ -194,7 +194,7 @@ nav .fa-solid {
 
     .nav-links {
         position: absolute;
-        background-color: #a8e4ad;
+        background-color: #f8f166;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -217,7 +217,7 @@ nav .fa-solid {
         padding: 30px;
         display: flex;
         flex-direction: column;
-        background-color: #a8e4ad;
+        background-color: #f8f166;
     }
 
 
@@ -552,7 +552,7 @@ nav .fa-solid {
 @media(max-width:700px) {
     .Sec-2 {
         height: auto;
-        padding-left: 90px;
+        padding-left: 10px;
 
     }
 
@@ -1166,7 +1166,7 @@ nav .fa-solid {
     height: 60px;
     border-radius: 16px 0px 0px 0px;
     top: 525px;
-    left: 952px;
+    left: 1010px;
     display: flex;
     justify-content: space-around;
 
@@ -1501,10 +1501,10 @@ footer {
 }
 
 footer .footerr {
-    width: 90%;
+    width: 1230px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
     padding-bottom: 50px;
@@ -1515,11 +1515,13 @@ footer .footerr {
 footer .footerr .batch-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    width: 319 px;
+    flex-wrap: wrap;
+    /* column-gap: 20px; */
+    height: 250px;
+    width: 319px;
+    justify-content: space-between;
+    align-items: flex-start;
     background: rgba(249, 249, 251, 1);
-
 }
 
 footer .footerr .parent1 {
@@ -1581,7 +1583,6 @@ footer .footerr .batch-2 {
     text-align: left;
     flex-wrap: wrap;
     background: rgba(249, 249, 251, 1);
-
 
 }
 
@@ -1682,6 +1683,7 @@ footer .batch-5 .icon5 {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        max-width: 600px;
 
     }
 
@@ -1701,6 +1703,7 @@ footer .batch-5 .icon5 {
 
     footer .footerr .batch-2 {
         align-self: center;
+        padding-right: 90px;
     }
 
     footer hr {
