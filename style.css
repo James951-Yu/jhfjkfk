@@ -50,7 +50,7 @@
     position: relative;
     width: 41px;
     height: 41px;
-    padding-left: 87px;
+    padding-left: 110px;
 
 
 }
@@ -62,7 +62,7 @@
     border: 3px;
     border-color: rgba(255, 255, 255, 1);
     border-radius: 50%;
-    margin-left: 100px;
+    margin-left: 122px;
     margin-bottom: 13px;
 
 
@@ -450,7 +450,7 @@ nav .fa-solid {
     height: 550px;
     top: 150px;
     margin: auto;
-    padding: auto;
+    left: 80px;
 
 }
 
@@ -484,6 +484,7 @@ nav .fa-solid {
     align-items: center;
     flex-wrap: wrap;
     row-gap: 60px;
+    width: 1242px;
 }
 
 .planet-coll {
@@ -509,7 +510,7 @@ nav .fa-solid {
 }
 
 .Planet .planet-coll p {
-    width: 450px;
+    width: 390px;
 
     color: #7D7987;
     font-family: Muli;
@@ -684,16 +685,16 @@ nav .fa-solid {
     font-weight: 600;
     line-height: 25px;
     align-self: last baseline;
-    padding-right: 10px;
+    padding-right: 15px;
     text-decoration: none;
 
 }
 
 .destiny .container-3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    width: 1120px;
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -775,6 +776,8 @@ nav .fa-solid {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        padding-left: 0;
+        padding-bottom: 50px;
     }
 
     .destiny .photoalbom {
@@ -801,6 +804,7 @@ nav .fa-solid {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 600px;
     }
 
 
@@ -809,7 +813,7 @@ nav .fa-solid {
 /* Section ---- 4*/
 .Sunnyguide {
     position: relative;
-    width: 1205.57px;
+    width: 1206px;
     height: 542px;
     top: 400px;
     left: 100px;
@@ -860,7 +864,7 @@ nav .fa-solid {
     flex-direction: column;
     justify-content: space-between;
     align-self: center;
-    width: 481px;
+    width: 710px;
     height: 303px;
 
 
@@ -890,6 +894,8 @@ nav .fa-solid {
     letter-spacing: 0em;
     text-align: left;
     color: rgba(125, 121, 135, 1);
+    width: 450px;
+    height: 90px;
 
 }
 
@@ -968,6 +974,11 @@ nav .fa-solid {
         max-width: 600px;
     }
 
+    .Sunnyguide .guide {
+        width: 600px;
+        align-self: center;
+        padding-left: 200px;
+    }
 
     .Sunnyguide .guide h2 {
 
@@ -1004,6 +1015,7 @@ nav .fa-solid {
     width: 1180px;
     height: 615.98px;
     top: 500px;
+    left: 50px;
     margin: auto;
     padding: auto;
     display: flex;
@@ -1013,7 +1025,7 @@ nav .fa-solid {
 }
 
 .sec-5 h1 {
-    width: 481px;
+
     height: 50px;
     left: 107px;
     font-family: Playfair Display;
@@ -1021,9 +1033,11 @@ nav .fa-solid {
     font-weight: 700;
     line-height: 50px;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
     align-self: flex-start;
     color: rgba(0, 0, 0, 1);
+    padding-left: 30px;
+
 
 }
 
@@ -1036,11 +1050,26 @@ nav .fa-solid {
 
 }
 
+.sec-5 .element-2 {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 62px;
+    left: 1117px;
+
+
+}
+
+
+
 .Trials {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 270px;
     align-items: center;
+    width: 1180px;
 
 }
 
@@ -1115,37 +1144,57 @@ nav .fa-solid {
     position: relative;
     width: 384px;
     height: 491px;
+    border: 1px transparent;
     border-radius: 10px;
+
 }
 
-.sec-5 .Trials .Image-4 .sub-main {
+.sec-5 .Trials .element-3 {
+    position: absolute;
+    width: 31.72px;
+    height: 31.64px;
+    top: 560Spx;
+    left: 743px;
+    transform: rotate(8.17deg);
+    background: transparent;
+
+}
+
+.sub-main {
     position: absolute;
     width: 132px;
     height: 60px;
-    border-radius: 10px;
-    left: 50pxpx;
-    top: 200px;
+    border-radius: 16px 0px 0px 0px;
+    top: 525px;
+    left: 952px;
+    display: flex;
+    justify-content: space-around;
+
+
 }
 
-.sec-5 .Trials .Image-4 .sub-main .Image-5 {
+.sub-main .image-5 {
     position: relative;
+    top: 10px;
+    left: 10px;
 
 }
 
-.sec-5 .Trials #Image-4 .sub-main .Image-6 {
+.sub-main .image-6 {
     position: absolute;
-    padding-right: 10px;
-    padding-top: 10px;
+    top: 24px;
+    right: 88px;
 }
 
-.sec-5 .Trials #Image-4 .sub-main .Image-7 {
+.sub-main .image-7 {
     position: relative;
+    top: 10px;
 }
 
-.sec-5.Trials #Image-4 .sub-main .Image-8 {
+.sub-main .image-8 {
     position: absolute;
-    padding-right: 10px;
-    padding-top: 10px;
+    right: 29.5px;
+    top: 24px;
 }
 
 @media(max-width:700px) {
@@ -1192,6 +1241,23 @@ nav .fa-solid {
     .sec-5 .Trials .Trial-star .name-job {
         align-self: flex-start;
     }
+
+    .sec-5 .element-2 {
+        position: absolute;
+        top: 430px;
+        left: 555px;
+    }
+
+    .sec-5 .Trials .element-3 {
+        top: 927px;
+        left: 183px;
+    }
+
+    .sub-main {
+        position: absolute;
+        top: 885px;
+        left: 451px;
+    }
 }
 
 
@@ -1208,6 +1274,7 @@ nav .fa-solid {
     width: 1222px;
     height: 684px;
     top: 700px;
+    padding-left: 110px;
 
 
 }
@@ -1244,7 +1311,8 @@ nav .fa-solid {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 1110px;
+    padding-right: 20px;
 }
 
 .pic-story .pic-story-coll h2 {
@@ -1256,6 +1324,7 @@ nav .fa-solid {
     text-align: left;
     width: 481px;
     height: 50px;
+    align-self: flex-start;
 
 
 }
@@ -1263,12 +1332,12 @@ nav .fa-solid {
 .pic-story .pic-story-coll a {
 
     text-align: left;
-    color: rgba(251, 143, 29, 1);
-
+    color: hsl(31, 97%, 55%);
+    text-decoration: none;
     font-family: Inter;
     font-size: 17px;
     font-weight: 600;
-    line-height: 45px;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
 
@@ -1335,9 +1404,8 @@ nav .fa-solid {
 }
 
 .picture {
-    width: 261px;
-    height: 292px;
-
+    width: 266px;
+    height: 245px;
     border-radius: 8%;
 }
 
@@ -1424,7 +1492,8 @@ footer {
     flex-wrap: wrap;
     width: 1640px;
     height: 482px;
-    top: 770px;
+    top: 890px;
+    left: 60px;
     margin: auto;
     padding: auto;
     background: rgba(249, 249, 251, 1);
@@ -1439,6 +1508,16 @@ footer .footerr {
     align-items: center;
     margin: auto;
     padding-bottom: 50px;
+    background: rgba(249, 249, 251, 1);
+
+}
+
+footer .footerr .batch-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 319 px;
     background: rgba(249, 249, 251, 1);
 
 }
@@ -1464,15 +1543,6 @@ footer .footerr .parent1 {
 
 }
 
-footer .footerr .batch-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-
-    background: rgba(249, 249, 251, 1);
-
-}
 
 .paragraph-5 {
     padding-top: 40px;
