@@ -743,7 +743,7 @@ nav .fa-solid {
     .sec-3 {
         height: auto;
         max-width: 600px;
-        padding-left: 90px;
+        padding-left: 0px;
 
 
     }
@@ -771,7 +771,7 @@ nav .fa-solid {
         width: 19.96px;
         height: 20px;
         top: 0px;
-        left: 100px;
+        left: 50px;
 
     }
 
@@ -937,7 +937,7 @@ nav .fa-solid {
 @media(max-width:700px) {
     .sec-4 {
         height: auto;
-        padding-left: 90px;
+        padding-left: 0px;
 
     }
 
@@ -974,7 +974,7 @@ nav .fa-solid {
     .Sunnyguide {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         max-width: 600px;
     }
@@ -1206,7 +1206,7 @@ nav .fa-solid {
     .sec-5 {
         height: auto;
         padding-left: 90px;
-        padding-top: 140px;
+        padding-top: 300px;
         max-width: 600px;
     }
 
@@ -1248,21 +1248,28 @@ nav .fa-solid {
         align-self: flex-start;
     }
 
+    .sec-5 .Trials .Image-4 {
+        padding-right: 70px;
+    }
+
     .sec-5 .element-2 {
         position: absolute;
-        top: 430px;
-        left: 555px;
+        top: 665px;
+        left: 527px;
     }
 
     .sec-5 .Trials .element-3 {
-        top: 927px;
-        left: 183px;
+        top: 1165px;
+        left: 150px;
     }
+
 
     .sub-main {
         position: absolute;
-        top: 885px;
-        left: 451px;
+        top: 1125px;
+        left: 425px;
+        background-color: #FFF;
+
     }
 }
 
@@ -1429,7 +1436,7 @@ nav .fa-solid {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left: 90px;
+        padding-left: 0px;
         height: auto;
         max-width: 600px;
     }
@@ -1465,14 +1472,15 @@ nav .fa-solid {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
-        width: 300px;
+        width: 440px;
 
 
     }
 
     .pic-story .pic-story-coll h2 {
         align-self: center;
+        width: 300px;
+        padding-left: 55px;
     }
 
     .pic-story .picturess {
@@ -1580,6 +1588,32 @@ footer .footerr .parent1 {
     background: rgba(249, 249, 251, 1);
 
 }
+
+footer .footerr .batch-1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    background: rgba(249, 249, 251, 1);
+
+
+}
+
+footer .footerr .batch-1-2 a {
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(132, 132, 132, 1);
+    background: rgba(249, 249, 251, 1);
+    text-decoration: none;
+
+}
+
 
 footer .footerr .batch-2 {
     display: flex;
@@ -1705,6 +1739,10 @@ footer .batch-5 .icon5 {
     footer .footerr .parent1 {
         align-self: flex-start;
 
+    }
+
+    footer .footerr .batch-1-2 {
+        padding-right: 125px;
     }
 
     footer .footerr .batch-2 {
