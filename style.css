@@ -71,6 +71,7 @@ nav {
     justify-content: space-between;
     align-items: flex-end;
     margin: auto;
+    padding-left: 130px;
 }
 
 
@@ -179,7 +180,7 @@ nav .fa-solid {
     }
 
     nav {
-        width: 590px;
+        width: 560px;
     }
 
 
@@ -226,12 +227,12 @@ nav .fa-solid {
 
 /*  ----- travel----*/
 .travel {
-    width: 1415px;
     height: 786px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-left: 60px;
 }
 
 .travel-coll {
@@ -397,6 +398,7 @@ nav .fa-solid {
         position: absolute;
         width: 25.95px;
         height: 26px;
+        left: 40px;
 
 
     }
