@@ -74,6 +74,9 @@ nav {
     padding-left: 130px;
 }
 
+#home {
+    color: #000;
+}
 
 .nav-links ul {
     display: flex;
@@ -114,7 +117,7 @@ nav {
     content: '';
     width: 0%;
     height: 2px;
-    background: rgb(12, 11, 11, 0.199);
+    background: #000000bd;
     display: block;
     margin: auto;
     transition: 0.7s;
@@ -334,6 +337,10 @@ nav .fa-solid {
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
+}
+
+.box:hover {
+    color: #000;
 }
 
 .date {
