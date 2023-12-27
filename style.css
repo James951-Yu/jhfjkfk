@@ -1,8 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Sans', sans-serif;
-
+body {
+    width: 1415px;
 
 }
 
@@ -174,8 +171,8 @@ nav .fa-solid {
 
 
 @media(max-width:700px) {
-    * {
-        min-width: none;
+    body {
+        width: 700px;
     }
 
     .header {
@@ -566,9 +563,10 @@ nav .fa-solid {
 
     .Planet {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         max-width: 600px;
+        padding-top: 100px;
 
     }
 
@@ -938,13 +936,13 @@ nav .fa-solid {
 }
 
 @media(max-width:700px) {
-    .sec-4 {
+    .Sunnyguide {
         height: auto;
         padding-left: 0px;
 
     }
 
-    .sec-4 .element-1 {
+    .Sunnyguide .element-1 {
         position: absolute;
         width: 19.96px;
         height: 20px;
@@ -954,7 +952,7 @@ nav .fa-solid {
 
     }
 
-    .sec-4 .element-3 {
+    .Sunnyguide .element-3 {
         position: absolute;
         width: 16.04px;
         height: 16px;
@@ -964,7 +962,7 @@ nav .fa-solid {
 
     }
 
-    .sec-4 .element-33 {
+    .Sunnyguide .element-33 {
         position: absolute;
         width: 20.05px;
         height: 20px;
