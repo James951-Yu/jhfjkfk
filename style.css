@@ -1162,7 +1162,7 @@ nav .fa-solid {
     position: absolute;
     width: 31.72px;
     height: 31.64px;
-    top: 560Spx;
+    top: 560px;
     left: 743px;
     transform: rotate(8.17deg);
     background: transparent;
@@ -1174,10 +1174,11 @@ nav .fa-solid {
     width: 132px;
     height: 60px;
     border-radius: 16px 0px 0px 0px;
-    top: 525px;
+    top: 520px;
     left: 1010px;
     display: flex;
     justify-content: space-around;
+    background: #FFF;
 
 
 }
@@ -1375,10 +1376,8 @@ nav .fa-solid {
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    width: 219px;
-    height: 60px;
-    top: 4634px;
-    left: 240px;
+    width: 230px;
+    height: 80px;
 
 
 }
