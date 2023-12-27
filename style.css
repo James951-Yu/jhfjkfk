@@ -356,6 +356,10 @@ nav .fa-solid {
 
 }
 
+.date:hover {
+    color: #000;
+}
+
 
 .travel .travel-coll .form-coll form button {
 
