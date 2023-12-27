@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
-    background: rgba(255, 255, 255, 1);
+
 
 }
 
 .header {
     width: 1415px;
-    height: 786px;
+    min-height: 100vh;
     top: 35px;
 
     position: relative;
@@ -32,7 +32,7 @@
     width: 25.95px;
     height: 26px;
     top: 494px;
-    left: 80px;
+    left: 0px;
 
 }
 
@@ -50,7 +50,7 @@
     position: relative;
     width: 41px;
     height: 41px;
-    padding-left: 110px;
+    padding-left: 10px;
 
 
 }
@@ -62,7 +62,7 @@
     border: 3px;
     border-color: rgba(255, 255, 255, 1);
     border-radius: 50%;
-    margin-left: 122px;
+    margin-left: 22px;
     margin-bottom: 13px;
 
 
@@ -174,23 +174,19 @@ nav .fa-solid {
 
 
 @media(max-width:700px) {
+    * {
+        min-width: none;
+    }
 
     .header {
         height: auto;
-        width: fit-content;
+        width: 700px;
     }
 
     nav {
         width: 590px;
     }
 
-    .nav-links ul li a {
-        display: block;
-        background-color: #f8f166;
-        color: #000;
-
-
-    }
 
     .nav-links {
         position: absolute;
@@ -210,8 +206,16 @@ nav .fa-solid {
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
-        width: 0;
+
     }
+
+    /* .nav-links ul li a {
+        display: block;
+        background-color: #f8f166;
+        color: #000;
+
+
+    } */
 
     .nav-links ul {
         padding: 30px;
@@ -229,7 +233,6 @@ nav .fa-solid {
 .travel {
     width: 1415px;
     height: 786px;
-    padding-left: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -448,9 +451,9 @@ nav .fa-solid {
     position: relative;
     width: 1242px;
     height: 550px;
-    top: 150px;
+    top: 0px;
     margin: auto;
-    left: 80px;
+    left: 0px;
 
 }
 
@@ -552,7 +555,8 @@ nav .fa-solid {
 @media(max-width:700px) {
     .Sec-2 {
         height: auto;
-        padding-left: 10px;
+        padding-left: 0px;
+        max-width: 600px;
 
     }
 
@@ -591,7 +595,7 @@ nav .fa-solid {
 
     .Planet .planet-coll button {
         font-size: 14px;
-        border: 1px solid #101010;
+        border: 1px solid rgba(251, 143, 29, 1);
         border-radius: 8px;
         background-color: transparent;
         transition: 1s;
@@ -649,7 +653,7 @@ nav .fa-solid {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-left: 100px;
+
 
 
 
@@ -738,6 +742,7 @@ nav .fa-solid {
 @media(max-width:700px) {
     .sec-3 {
         height: auto;
+        max-width: 600px;
         padding-left: 90px;
 
 
@@ -816,7 +821,7 @@ nav .fa-solid {
     width: 1206px;
     height: 542px;
     top: 400px;
-    left: 100px;
+    left: 50px;
 
     display: flex;
     justify-content: center;
@@ -1015,7 +1020,7 @@ nav .fa-solid {
     width: 1180px;
     height: 615.98px;
     top: 500px;
-    left: 50px;
+    left: 0px;
     margin: auto;
     padding: auto;
     display: flex;
@@ -1201,7 +1206,7 @@ nav .fa-solid {
     .sec-5 {
         height: auto;
         padding-left: 90px;
-        padding-top: 60px;
+        padding-top: 140px;
         max-width: 600px;
     }
 
@@ -1223,6 +1228,7 @@ nav .fa-solid {
         justify-content: space-evenly;
         flex-wrap: wrap;
         gap: 20px;
+        max-width: 600px;
 
 
     }
@@ -1274,7 +1280,7 @@ nav .fa-solid {
     width: 1222px;
     height: 684px;
     top: 700px;
-    padding-left: 110px;
+    left: 0px;
 
 
 }
@@ -1493,7 +1499,7 @@ footer {
     width: 1640px;
     height: 482px;
     top: 890px;
-    left: 60px;
+    left: 0px;
     margin: auto;
     padding: auto;
     background: rgba(249, 249, 251, 1);
@@ -1693,7 +1699,7 @@ footer .batch-5 .icon5 {
         justify-content: center;
         align-items: flex-start;
         width: 360px;
-
+        flex-wrap: nowrap;
     }
 
     footer .footerr .parent1 {
