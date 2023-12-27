@@ -572,12 +572,12 @@ nav .fa-solid {
 
     }
 
-    .Planet.planet-coll {
+    .Planet .planet-coll {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-
+        justify-content: center;
+        padding-left: 40px;
 
     }
 
@@ -788,9 +788,10 @@ nav .fa-solid {
 
     .destiny .photoalbom {
         display: flex;
+        flex-direction: column;
 
-        justify-content: space-between;
-
+        justify-content: center;
+        padding-right: 125px;
         width: 400px
     }
 
@@ -810,7 +811,8 @@ nav .fa-solid {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 600px;
+        width: fit-content;
+        padding-right: 120px;
     }
 
 
@@ -983,7 +985,7 @@ nav .fa-solid {
     .Sunnyguide .guide {
         width: 600px;
         align-self: center;
-        padding-left: 200px;
+        padding-left: 125px;
     }
 
     .Sunnyguide .guide h2 {
@@ -1239,10 +1241,12 @@ nav .fa-solid {
         flex-direction: column;
         justify-content: space-around;
         align-items: flex-start;
+        padding-right: 125px;
     }
 
     .sec-5 h1 {
         align-self: center;
+        padding-right: 415px;
     }
 
     .sec-5 .Trials .Trial-star .name-job {
@@ -1250,25 +1254,25 @@ nav .fa-solid {
     }
 
     .sec-5 .Trials .Image-4 {
-        padding-right: 70px;
+        padding-right: 180px;
     }
 
     .sec-5 .element-2 {
         position: absolute;
-        top: 665px;
-        left: 527px;
+        top: 670px;
+        left: 470px;
     }
 
     .sec-5 .Trials .element-3 {
-        top: 1165px;
-        left: 150px;
+        top: 1170px;
+        left: 90px;
     }
 
 
     .sub-main {
         position: absolute;
         top: 1125px;
-        left: 425px;
+        left: 360px;
         background-color: #FFF;
 
     }
