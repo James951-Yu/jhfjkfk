@@ -956,9 +956,9 @@ nav .fa-solid {
         position: absolute;
         width: 16.04px;
         height: 16px;
-        left: 510px;
-        top: 700px;
-        rotate: -9.99 deg;
+        left: 0px;
+        top: 900px;
+        transform: rotate(-9.99deg);
 
     }
 
@@ -968,7 +968,7 @@ nav .fa-solid {
         height: 20px;
         left: 530px;
         top: 80px;
-        rotate: -20.42 deg;
+        transform: rotate(-20.42deg);
 
     }
 
@@ -1207,7 +1207,7 @@ nav .fa-solid {
     .sec-5 {
         height: auto;
         padding-left: 90px;
-        padding-top: 300px;
+        padding-top: 150px;
         max-width: 600px;
     }
 
