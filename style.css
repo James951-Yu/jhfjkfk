@@ -776,6 +776,7 @@ nav .fa-solid {
     }
 
     .destiny {
+        margin-top: -150px;
         max-width: 600px;
         display: flex;
         flex-direction: column;
