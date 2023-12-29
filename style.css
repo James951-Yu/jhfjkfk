@@ -28,8 +28,8 @@
     position: absolute;
     width: 25.95px;
     height: 26px;
-    top: 494px;
-    left: 0px;
+    top: 475px;
+    left: 25px;
 
 }
 
@@ -275,7 +275,7 @@ nav .fa-solid {
 
 .travel-coll .form-coll hr {
     align-self: flex-start;
-
+    margin-bottom: 25px;
     width: 30px;
 }
 
@@ -337,6 +337,7 @@ nav .fa-solid {
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
+
 }
 
 .box:hover {
@@ -451,6 +452,10 @@ nav .fa-solid {
     .travel .thousand {
         padding-top: 80px;
         padding-left: 70px;
+    }
+
+    .box:hover {
+        color: #000;
     }
 }
 
@@ -1188,35 +1193,36 @@ nav .fa-solid {
     top: 520px;
     left: 1010px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background: #FFF;
 
 
 }
 
-.sub-main .image-5 {
-    position: relative;
-    top: 10px;
-    left: 10px;
+.slider-button {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #B8BECD;
+    background-color: #fff;
+}
+
+.slider-button:hover {
+    border: 3px solid #000;
 
 }
 
-.sub-main .image-6 {
-    position: absolute;
-    top: 24px;
-    right: 88px;
+.slider-button .fa {
+    color: #B8BECD;
+    align-self: center;
 }
 
-.sub-main .image-7 {
-    position: relative;
-    top: 10px;
+.slider-button .fa:hover {
+    color: #000;
 }
 
-.sub-main .image-8 {
-    position: absolute;
-    right: 29.5px;
-    top: 24px;
-}
+
 
 @media(max-width:700px) {
     .sec-5 {
